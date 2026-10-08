@@ -1,0 +1,19 @@
+# Alcance maximo (en bloques) para golpear a traves de plantas.
+# En vanilla el alcance de ataque es de 3.0 bloques.
+reach: 3.0
+
+# Margen extra alrededor del hitbox del mob al trazar el rayo (en bloques).
+# 0.0 = exacto como vanilla.
+ray-size: 0.0
+
+# Si es true, al golpear a un mob a traves de una planta NO se rompe la planta.
+# Si es false, la planta se rompe igual (en modo supervivencia) y ademas golpeas al mob.
+protect-plant: true
+
+# Si es true, tambien se puede atacar a jugadores (PvP). Si es false, solo mobs.
+allow-players: true
+
+# Mensaje al recargar
+messages:
+  reloaded: "&aConfiguracion de AtravesarPlantas recargada."
+  no-permission: "&cNo tienes permiso."

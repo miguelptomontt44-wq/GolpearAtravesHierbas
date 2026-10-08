@@ -1,0 +1,21 @@
+name: AtravesarPlantas
+version: '${project.version}'
+main: dev.atravesarplantas.AtravesarPlantas
+api-version: '26.1'
+description: Permite golpear mobs a traves de pasto, flores y plantas de 2 bloques.
+authors: [AtravesarPlantas]
+
+commands:
+  atravesarplantas:
+    description: Recarga la configuracion del plugin.
+    usage: /atravesarplantas reload
+    aliases: [ap]
+    permission: atravesarplantas.admin
+
+permissions:
+  atravesarplantas.use:
+    description: Permite golpear mobs a traves de plantas.
+    default: true
+  atravesarplantas.admin:
+    description: Permite recargar la configuracion.
+    default: op
