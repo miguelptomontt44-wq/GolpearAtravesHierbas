@@ -2,7 +2,7 @@ name: AtravesarPlantas
 version: '${project.version}'
 main: dev.atravesarplantas.AtravesarPlantas
 api-version: '26.1'
-description: Permite golpear mobs a traves de pasto, flores y plantas de 2 bloques.
+description: Permite golpear mobs e interactuar con cofres y entidades a traves de pasto, flores y plantas.
 authors: [AtravesarPlantas]
 
 commands:
@@ -15,6 +15,9 @@ commands:
 permissions:
   atravesarplantas.use:
     description: Permite golpear mobs a traves de plantas.
+    default: true
+  atravesarplantas.interact:
+    description: Permite abrir cofres e interactuar con entidades a traves de plantas.
     default: true
   atravesarplantas.admin:
     description: Permite recargar la configuracion.

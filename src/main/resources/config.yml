@@ -1,3 +1,5 @@
+# ---------------- GOLPEAR (clic izquierdo) ----------------
+
 # Alcance maximo (en bloques) para golpear a traves de plantas.
 # En vanilla el alcance de ataque es de 3.0 bloques.
 reach: 3.0
@@ -13,7 +15,19 @@ protect-plant: true
 # Si es true, tambien se puede atacar a jugadores (PvP). Si es false, solo mobs.
 allow-players: true
 
-# Mensaje al recargar
+# ---------------- INTERACTUAR (clic derecho) ----------------
+# Abrir cofres, barriles, shulkers, hornos, tolvas, dispensadores, soportes de pociones,
+# cofre de ender y mesa de crafteo; comerciar con aldeanos; montar botes/vagonetas;
+# abrir vagonetas con cofre/tolva... todo a traves de pasto, flores, pasto alto, etc.
+# Agachado (shift) se desactiva para poder colocar bloques normalmente.
+interact:
+  enabled: true
+  # Alcance para bloques (vanilla: 4.5)
+  block-reach: 4.5
+  # Alcance para entidades (vanilla: 3.0)
+  entity-reach: 3.0
+
+# Mensajes
 messages:
   reloaded: "&aConfiguracion de AtravesarPlantas recargada."
   no-permission: "&cNo tienes permiso."
